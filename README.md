@@ -1,3 +1,6 @@
+frontend deployed:: https://658165f76d81be009f8af8d4--vermillion-twilight-227c5f.netlify.app/
+
+backend deployed on render:: https://yoga-backend-nuqy.onrender.com/admin/enrollment/participant/
 # User Enrollment and Fee Payment Application
 
 ## Overview
