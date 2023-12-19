@@ -1,0 +1,21 @@
+version: '3'
+services:
+  yoga_backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.yoga_backend
+    volumes:
+      - ./yoga_backend:/yoga_backend
+    ports:
+      - "8000:8000"
+    depends_on:
+      - yoga-frontend
+
+  yoga-frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.yoga-frontend
+    volumes:
+      - ./yoga-frontend:/yoga-frontend
+    ports:
+      - "3000:3000"
