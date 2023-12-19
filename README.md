@@ -99,3 +99,13 @@ This application utilizes Django (backend) and React (frontend) to simplify user
 - Developing a React application to interact with the backend.
 - Creating two forms on the same page—one for participant enrollment and another for fee payment.
 - Ensuring proper validation and user-friendly interfaces for data entry.
+
+  
+### Deployment
+Frontend on Netlify:
+Run npm run build to generate the production-ready build.
+Host on Netlify:
+ 
+Backend on render:
+Ensure the backend is deployed and accessible.
+Configure the frontend to connect to the deployed backend.
